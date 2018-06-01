@@ -1,0 +1,23 @@
+LocksmitHub.com @ AWS
+
+Public IP: 23.23.43.190
+
+Private IP: 172.31.19.208
+
+SSH using PPK (lock-directory.ppk)
+
+User: ec2-user
+
+MySQL Root
+
+user: root
+pass: greenlock321
+
+
+WWW Root:
+
+/var/www/html
+
+<Directory "/var/www/knowlock">
+	AllowOverride All
+</Directory>
